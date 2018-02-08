@@ -25,7 +25,7 @@ const KEYBOARD = {
 }
 ```
 
-You can send your custom keyboard inside the 3rd argument of onText() method which is optional.
+**Note:** You can send your custom keyboard inside the 3rd argument of onText() method which is *optional*.
 
 ----
 
@@ -47,7 +47,7 @@ bot.onText(/\/help/, (msg) => {
 2. And another one is to define using Regular Expressions
    - Here the "match" is an array and its first element is the message you've sent to your bot.
    - You can fetch that message by just typing "match[0]"
-   - [https://github.com/yagop/node-telegram-bot-api/](Detailed Documentation)
+   - Detailed Documentation: https://github.com/yagop/node-telegram-bot-api/
 
 ```javascript
 bot.onText(/(.+)/, (msg, match) => {
