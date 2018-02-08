@@ -1,0 +1,21 @@
+{
+  "name": "telegram-echo-bot",
+  "version": "0.0.1",
+  "description": "A Telegram bot with Custom Keyboard and which replies you with your message. An Echo Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "TelegramBot",
+    "Telegram",
+    "Node.js",
+    "Echo",
+    "EchoBot"
+  ],
+  "author": "Apal Shah",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
